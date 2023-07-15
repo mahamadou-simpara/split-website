@@ -5,7 +5,7 @@ console.log('Hello !');
 left.addEventListener("mouseenter", function() {
     // Code to execute when the element is hovered
 
-    
+   
     right.classList.remove('expand');
     left.classList.remove('restrict');
 

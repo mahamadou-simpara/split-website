@@ -7,11 +7,12 @@ body{
 #container{
  background-color: black;
  width: 100%;
- height: 100%;
+ height: 100%; 
  position: relative;
 }
 #container div{
- position: absolute;
+ position: absolute; 
+ cursor: col-resize;
 }
 .left-image{
  background-image: url('https://www.arch2o.com/wp-content/uploads/2022/10/Arch2O-10-of-the-most-eye-opening-iconic-buildings-of-modern-architecture.jpg');
