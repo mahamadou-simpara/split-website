@@ -1,0 +1,72 @@
+body{
+ width: 100vw;
+ height: 100vh;
+ margin: 0;
+}
+
+#container{
+ background-color: black;
+ width: 100%;
+ height: 100%;
+ position: relative;
+}
+#container div{
+ position: absolute;
+}
+.left-image{
+ background-image: url('https://www.arch2o.com/wp-content/uploads/2022/10/Arch2O-10-of-the-most-eye-opening-iconic-buildings-of-modern-architecture.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ background-color: rgba(97, 181, 255, 0.638);
+ width: 50%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: 0.8s;
+}
+.right-image{
+    background-color: rgba(255, 255, 255, 0.892);
+    background-image: url('https://media.architecturaldigest.com/photos/56ba787ca254b168296a8fff/1:1/w_3460,h_3460,c_limit/zaha-hadid-architecture-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+   }
+
+#container button{
+ background-color: rgba(0, 0, 0, 0.058);
+ border: 1px solid rgba(255, 255, 255, 0.767);
+ color: white;
+ font-family: 'Oleo Script', cursive;
+ font-family: 'Roboto', sans-serif;
+ padding: 0.2rem 1rem;
+ white-space: nowrap;
+}
+#container button:hover{
+    background-color: rgba(255, 255, 255, 0.669);
+}
+
+.expand{
+ width: 70%;
+}
+
+.restrict{
+ width: 30%;
+}
+
+/* .left-image.exand{
+ width: 10%;
+ background-color: black;
+}
+
+.left-image.exand .right-image{
+    width: 90%;
+} */
